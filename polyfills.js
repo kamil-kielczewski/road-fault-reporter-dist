@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /work/road-fault-reporter/src/polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! /app/src/polyfills.ts */"hN/g");
 
 
 /***/ }),
