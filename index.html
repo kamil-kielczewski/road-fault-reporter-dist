@@ -17,21 +17,21 @@
     <body>
         <app-root></app-root>
         <noscript>Please enable JavaScript to continue using this application.</noscript>
-        <script>
-          //more info: https://web.dev/customize-install/
-          // Initialize deferredPrompt for use later to show browser install prompt.
-          let deferredPrompt;
+<!--        <script>-->
+<!--          //more info: https://web.dev/customize-install/-->
+<!--          // Initialize deferredPrompt for use later to show browser install prompt.-->
+<!--          let deferredPrompt;-->
 
-          window.addEventListener('beforeinstallprompt', (e) => {
-            // Prevent the mini-infobar from appearing on mobile
-            e.preventDefault();
-            // Stash the event so it can be triggered later.
-            deferredPrompt = e;
-            // Update UI notify the user they can install the PWA
-            showInstallPromotion();
-            // Optionally, send analytics event that PWA install promo was shown.
-            console.log(`'beforeinstallprompt' event was fired.`);
-          });
-        </script>
-    <script src="runtime.0022e3ea26b5a9eaa25a.js" defer=""></script><script src="polyfills.00096ed7d93ed26ee6df.js" defer=""></script><script src="main.d4c1f715b4b75b7fa75a.js" defer=""></script></body>
+<!--          window.addEventListener('beforeinstallprompt', (e) => {-->
+<!--            // Prevent the mini-infobar from appearing on mobile-->
+<!--            e.preventDefault();-->
+<!--            // Stash the event so it can be triggered later.-->
+<!--            deferredPrompt = e;-->
+<!--            // Update UI notify the user they can install the PWA-->
+<!--            showInstallPromotion();-->
+<!--            // Optionally, send analytics event that PWA install promo was shown.-->
+<!--            console.log(`'beforeinstallprompt' event was fired.`);-->
+<!--          });-->
+<!--        </script>-->
+    <script src="runtime.0022e3ea26b5a9eaa25a.js" defer=""></script><script src="polyfills.00096ed7d93ed26ee6df.js" defer=""></script><script src="main.99a59206a60a4a930a80.js" defer=""></script></body>
 </html>
